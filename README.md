@@ -1,2 +1,2 @@
 # codewars
-my solutions to codewars challenges
+My solutions to Codewars' challenges
