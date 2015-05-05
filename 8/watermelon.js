@@ -1,6 +1,11 @@
+// my solution
+
 function divide(weight) {
-  if(weight % 2 === 1 || weight === 2) {
-    return false;
-  }
-  return true;
+  return weight > 2 && !(weight % 2) ? true : false;
+}
+
+// an even better solution
+
+function divide(weight){
+  return weight > 2 && !(weight % 2);
 }
