@@ -1,3 +1,11 @@
+/*
+Decide if a number matches the pattern below:
+  1
+ 2 3
+4 5 6
+*/
+
+
 function isTriangleNumber(number) {
   var currentNumber = 1;
   if(number === 1 || number === 0) {
