@@ -5,7 +5,7 @@ If n is less than 0 it should rotate the array to the left.
 If n is 0, then it should return the array unchanged.
 */
 
-function rotate(array,n) {
+function rotate(array, n) {
   var array2 = [];
   var length = array.length
   for(var i = 0; i < length; i++) {
