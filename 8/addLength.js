@@ -10,7 +10,7 @@ function addLength(str) {
   return result;
 }
 
-// ECMAScript 6 version
+// ECMAScript 6 solution
 
 function addLength(str) {
   return str.split(' ').map(v => v + ' ' + v.length);
